@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "description": "Repos promoted into the ranked value tier - discovered to hold concrete, build-out-worthy latent value.",
+  "ranked": [
+    {
+      "repo": "organvm/auto-revision-epistemic-engine",
+      "promoted": "2026-07-01",
+      "source": "auto-discovery",
+      "tier": "infrastructure",
+      "value": "Reusable governance kernel for autonomous work: wraps high-stakes agent or pipeline runs in phase gates, human review SLAs, ethics checks, reproducibility snapshots, tamper-evident audit logs, resource reports, and attestations.",
+      "first_task": "Add a PhaseHandler/adapter interface, convert `_execute_phase_logic` from hardcoded demo behavior to registered handlers, and ship one Poiesis art-generation example that proves a real downstream run can emit audit entries, HRG decisions, state snapshots, and a final attestation through this engine.",
+      "thesis": "DISCOVERY.md"
+    }
+  ]
+}
